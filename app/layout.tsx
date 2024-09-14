@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 import { geistSans, geistMono, fontSunflower, NexaHeavy, NexaLight, Akira, Bebas } from './fonts/fonts';
+import Footer from "./components/Footer/Footer";
 
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Navbar />
         <main>{children}</main>
+        <div className="id" id="contact"><Footer /></div>
         
       </body>
     </html>
