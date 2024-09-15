@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="education text-center">
-        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8">Education</h1>
+        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8 hover:text-8xl duration-700">Education</h1>
         <div className="schools space-y-8">
           <div className="school">
             <h2 className="text-4xl flex items-center justify-center font-[family-name:var(--font-geist-mono)]">

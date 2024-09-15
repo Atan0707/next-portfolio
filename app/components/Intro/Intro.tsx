@@ -30,7 +30,7 @@ const Intro = () => {
         </div>
         <div className="description mt-5 font-[family-name:var(--font-geist-mono)] text-xl">
           <p>
-            Aspiring full-stack developer<br /> based in Melaka. <br />Focused on building Web3.0 <br />for real-world applications.
+            Aspiring full-stack developer.<br />Focused on building Web3.0 <br />for real-world applications.
           </p>
         </div>
       </div>

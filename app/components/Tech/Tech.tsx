@@ -4,7 +4,7 @@ const Tech = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="tech text-center">
-        <h1 className="text-6xl font-[family-name:var(--font-akira)] pb-8">Stacks</h1>
+        <h1 className="text-6xl font-[family-name:var(--font-akira)] pb-8 hover:text-8xl duration-700">Stacks</h1>
         <div className="tech-stack space-y-8 ">
           <div className="stack">
             <h2 className="text-4xl ">Frontend</h2>
@@ -36,6 +36,7 @@ const Tech = () => {
               <li>VSCode</li>
               <li>Docker</li>
               <li>Hardhat</li>
+              <li>Prisma</li>
               <li>Postman</li>
             </ul>
           </div>

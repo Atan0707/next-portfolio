@@ -26,6 +26,21 @@ const projectData = [
     description: "Developed using ESP32 and Firebase to count push-ups",
     link: "https://github.com/Atan0707/iot-project-pushup"
   },
+  {
+    title: "Whatsapp Chatbot",
+    description: "Developed using whatsapp API and ww.js",
+    link: "https://github.com/Atan0707/iot-project-pushup"
+  },
+  {
+    title: "Devfolio (Hackthon Profile)",
+    description: "My Hackathon profile",
+    link: "https://devfolio.co/@Atan"
+  },
+  {
+    title: "More Projects on my Github ",
+    description: "My Hackathon profile",
+    link: "https://github.com/Atan0707"
+  },
   // Add more projects here
 ]
 
@@ -33,11 +48,11 @@ const Projects = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="projects text-center">
-        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8">Projects</h1>
+        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8 hover:text-8xl duration-700">Projects</h1>
         <div className="project-list space-y-8">
           {projectData.map((project, index) => (
             <div className="project" key={index}>
-              <h2 className="text-2xl font-[family-name:var(--font-geist-mono)] hover:text-sky-700 hover:underline transition-all duration-700">
+              <h2 className="text-2xl font-[family-name:var(--font-geist-mono)] hover:text-sky-700 hover: transition-all duration-700">
                 <a href={project.link}>{project.title}</a>
               </h2>
               <p className="text-lg leading-relaxed font-[family-name:var(--font-nexa-light)] pt-4">
