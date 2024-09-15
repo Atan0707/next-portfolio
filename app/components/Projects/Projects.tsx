@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="projects text-center">
-        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8 hover:text-8xl duration-700">Projects</h1>
+        <h1 className="text-6xl font-[family-name:var(--font-akira)] mb-8 hover:text-8xl duration-700 pt-10">Projects</h1>
         <div className="project-list space-y-8">
           {projectData.map((project, index) => (
             <div className="project" key={index}>
