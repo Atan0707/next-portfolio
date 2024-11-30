@@ -36,7 +36,7 @@ const Experience = () => {
                         On free time, we join several <span className='text-white font-bold font-[family-name:var(--font-nexa-heavy)]'> hackathons and competitions</span> to showcase our skills and <span className='text-white font-bold'>learn new things</span>.
                         </li>
                         <li className='border border-transparent w-96 text-justify text-zinc-300 font-[family-name:var(--font-nexa-light)]'>
-                        We&apos;ve won several prizes with cumulative worth of <span className='text-white font-bold font-[family-name:var(--font-nexa-heavy)]'>550 USD</span> .
+                        We&apos;ve won several prizes with cumulative worth of <span className='text-white font-bold font-[family-name:var(--font-nexa-heavy)]'>2550 USD</span> .
                         </li>
                       </ul>
                       
