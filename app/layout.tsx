@@ -33,9 +33,9 @@ export default function RootLayout({
       <body
         className={fontClasses}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <main>{children}</main>
-        <div className="id" id="contact"><Footer /></div>
+        {/* <div className="id" id="contact"><Footer /></div> */}
         
       </body>
     </html>

@@ -26,7 +26,8 @@
     "react-responsive-carousel": "^3.2.23",
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three-js": "^79.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
