@@ -1,28 +1,17 @@
-import Education from "./components/Education/Education";
-import Experience from "./components/Experience/Experience";
-import Intro from "./components/Intro/Intro";
-import Projects from "./components/Projects/Projects";
-import Tech from "./components/Tech/Tech";
+import Model from "./components/Model/Model"
 
 export default function Home() {
   return (
     <div className="home bg-black text-white">
-      <div className="intro">
-        <section id="head" className="relative min-h-screen">
-          <Intro />
-        </section>
-        <section id="experience" className="py-16 bg-gradient-to-b from-black to-zinc-900">
-          <Experience />
-        </section>
-        <section id="education" className="py-16 bg-gradient-to-b from-zinc-900 to-black">
-          <Education />
-        </section>
-        <section id="projects" className="py-16 bg-gradient-to-b from-black to-zinc-900">
-          <Projects />
-        </section>
-        <section id="tech" className="py-16 bg-gradient-to-b from-zinc-900 to-black">
-          <Tech />
-        </section>
+      {/* <OldHome /> */}
+      <div className="">
+        {/* <div className="name font-[family-name:var(--font-akira)] text-7xl mt-16 ">Hariz Hakim</div>
+        <div className="title font-[family-name:var(--font-geist-mono)] text-lg sm:text-xl text-gray-300">
+          <p>Full-stack developer</p>
+        </div> */}
+        <div className="three-container">
+          <Model />
+        </div>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/homepage/Navbar/Navbar";
 import { geistSans, geistMono, fontSunflower, NexaHeavy, NexaLight, Akira, Bebas } from './fonts/fonts';
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/homepage/Footer/Footer";
 
 
 export const metadata: Metadata = {
@@ -33,9 +33,9 @@ export default function RootLayout({
       <body
         className={fontClasses}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <main>{children}</main>
-        <div className="id" id="contact"><Footer /></div>
+        {/* <div className="id" id="contact"><Footer /></div> */}
         
       </body>
     </html>

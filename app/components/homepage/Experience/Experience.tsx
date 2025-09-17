@@ -57,14 +57,13 @@ const Experience = () => {
                 </div>
                 <div className="description">
                     <p className="text-xl leading-relaxed font-[family-name:var(--font-nexa-light)] pt-4 ">
-                      <ul className='inline-block space-y-5'>
+                      {/* Any text you want before the list can go here */}
+                    </p>
+                    <ul className='inline-block space-y-5'>
                         <li className='border border-transparent w-96 text-justify text-zinc-300'>
                         Assisting faculty in organizing events, <span className='text-white font-bold font-[family-name:var(--font-nexa-heavy)]'>focused on multimedia</span>, such as video editing, photography, and graphic design.
                         </li>
-                        
-                      </ul>
-                      
-                    </p>
+                    </ul>
                 </div>
             </div>
           </div>
