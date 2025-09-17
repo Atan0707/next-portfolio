@@ -18,10 +18,10 @@ export default function Model() {
 
     // 2. CAMERA - Defines the perspective/viewpoint
     const camera = new THREE.PerspectiveCamera(
-      50,                                    // Field of view (degrees)
+      60,                                    // Field of view (degrees)
       window.innerWidth / window.innerHeight, // Aspect ratio
       0.1,                                   // Near clipping plane
-      1000                                   // Far clipping plane
+      500                                   // Far clipping plane
     )
     camera.position.set(0, 2, 5) // Position camera to better view the model
 
